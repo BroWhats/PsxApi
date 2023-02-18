@@ -1,4 +1,4 @@
-# PsxApi
+# Initialization
 **! Forgeting this step will result in your script not working !**
 ```
 -- At the top of your script, add this
