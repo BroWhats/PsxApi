@@ -5,7 +5,7 @@ Want to join the server? Join here! https://discord.gg/PveuakEbBY Confused? Look
 **! Forgeting this step will result in your script not working !**
 ```
 -- At the top of your script, add this
-local CelestialScript = loadstring(game:HttpGet("https://raw.githubusercontent.com/MrGalaxy10/Psx/main/Api.lua",true))()
+local CelestialScript = loadstring(game:HttpGet("https://raw.githubusercontent.com/MrGalaxy10/PsxApi/main/Api.lua",true))()
 ```
 
 ## Documentation
