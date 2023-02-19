@@ -1,4 +1,4 @@
-local CelestialScript = loadstring(game:HttpGet("https://raw.githubusercontent.com/MrGalaxy10/Psx/main/Api.lua",true))()
+local CelestialScript = https://raw.githubusercontent.com/MrGalaxy10/PsxApi/main/Api.lua
 
 -- Constantly teleports the user to the bank
 spawn(function()
