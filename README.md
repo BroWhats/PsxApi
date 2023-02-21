@@ -1,4 +1,4 @@
-Simple Pet Simulator X API with lots of features and decent documentation New features are being introduced by recommendation to BroWhat#8139
+Simple Pet Simulator X API with lots of features and decent documentation New features are being introduced by recommendation to Jhon Cliford#2266
 Want to join the server? Join here! https://discord.gg/PveuakEbBY Confused? Look at examples here! https://github.com/MrGalaxy10/PsxApi/blob/main/Example
 
 # Initialization
